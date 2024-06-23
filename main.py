@@ -48,5 +48,5 @@ def predict_diabetes(input_data: DiabetesInput):
         return {"prediction": "Menderita diabetes"}
     
 @app.get("/")
-async def prediksi():
+def prediksi():
     return "halo ini api model ML prediksi diabetes"
